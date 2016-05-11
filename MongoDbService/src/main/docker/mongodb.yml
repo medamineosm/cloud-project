@@ -1,0 +1,9 @@
+version: '2'
+services:
+    mongodbservice-mongodb:
+        container_name: mongodbservice-mongodb
+        image: mongo:3.2.3
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/MongoDbService/mongodb/:/data/db/
