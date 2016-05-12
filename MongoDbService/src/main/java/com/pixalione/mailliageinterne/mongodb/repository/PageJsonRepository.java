@@ -8,6 +8,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 /**
  * Created by OUASMINE Mohammed Amine on 11/05/2016.
  */
-@RepositoryRestResource(collectionResourceRel = "PageJson", path = "PageJson")
+@RepositoryRestResource(collectionResourceRel = "WebPage", path = "WebPage")
 public interface PageJsonRepository extends MongoRepository<PageJson, String> {
 }

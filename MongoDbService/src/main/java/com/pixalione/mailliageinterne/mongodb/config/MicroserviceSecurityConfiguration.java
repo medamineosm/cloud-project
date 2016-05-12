@@ -52,7 +52,7 @@ package com.pixalione.mailliageinterne.mongodb.config;
               .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
           .and()
               .authorizeRequests()
-              .antMatchers("/api/**").authenticated()
+              .antMatchers("/api/**").permitAll()
               .antMatchers("/management/**").hasAuthority(AuthoritiesConstants.ADMIN)
               .antMatchers("/configuration/ui").permitAll()
           .and()

@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * Created by OUASMINE Mohammed Amine on 09/05/2016.
  */
-@Document(collection="LinkMetrics")
+@Document(collection="linkMetrics")
 public class LinkMetrics {
 
     @Id
